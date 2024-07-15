@@ -6,7 +6,7 @@
 if __name__ == "__main__":
     # local debugging, send a simulated event
     local=True
-    mock_s3_event = {
+    mock_handler_event = {
         "Records": [
             {
                 "s3": {
@@ -22,5 +22,5 @@ if __name__ == "__main__":
     }
 
     mock_context = []
-    lambda_handler(mock_s3_event, mock_context)
+    lambda_handler(mock_handler_event, mock_context)
   ```
