@@ -1,10 +1,11 @@
-# Add this to the end of a Lambda Python function code to run the code outside of Lambda and mock the input request:
+# Add this to the end of a Lambda Python function code to run the code outside of Lambda and mock the input request.
+* Update the event details as you like.
+* If needed, add a global variable "local" to indicate whether the code is run locally or inside of a Lambda function
 ```
 # This is used for debugging, it will only execute when run locally
 if __name__ == "__main__":
     # local debugging, send a simulated event
     local=True
-    # TODO 1: Update the event bucket name
     mock_s3_event = {
         "Records": [
             {
