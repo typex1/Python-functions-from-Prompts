@@ -1,6 +1,8 @@
+For a better understanding, this is the graphical view of the draw.io file which is indicated in the prompt as XML below:
+![UML Sequence Diagram Image](./img/uml-sequence-diagram_2.png)
+
+## Amazon Bedrock Claude 3.5 prompt:
 Based on the follwing UML sequence diagram, given as an XML file in draw.io, create Python function files, one for each .py file shown in the diagram, and inside the .py files, function stubs which make the respective function calls.
-(hint: for a better understanding, this is the graphical view of the draw.io file which is indicated as XML below)
-![UML Sequence Diagram Image](./img/uml-sequence-diagram.png)
 
 <mxfile host="Electron" modified="2024-07-15T11:20:21.966Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="aavPLeGI-V0f88FW2eqN" version="24.6.4" type="device">
   <diagram name="Page-1" id="4GUVqpLBEEVFClombRBR">
